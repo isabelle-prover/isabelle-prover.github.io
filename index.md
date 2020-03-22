@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+<img id="logo" src="Isabelle.jpg" alt="Isabelle logo" style="display: block; margin-left: auto; margin-right: auto; width: 125px;"/>
 
-You can use the [editor on GitHub](https://github.com/isabelle-prover/isabelle-prover.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Isabelle Quick Access Links
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+- [afp](https://www.isa-afp.org/): The Archive of Formal Proofs is a collection of proof libraries, examples, and larger scientific developments.
+- [chat](https://isabelle.zulipchat.com), [zulip](https://isabelle.zulipchat.com): Real-time discussion platform to exchange ideas, ask questions, and collaborate on Isabelle projects.
+- [chat-archive](https://isabelle-prover.github.io/zulip-archive/), [zulip-archive](https://isabelle-prover.github.io/zulip-archive/): The publicly available archive of the Isabelle zulip platform.
+- [competition](https://competition.isabelle.systems): Platform for interactive theorem proving competitions (also supporting other ITPs like Coq or Lean).
+- [dev](https://isabelle-dev.sketis.net): The Isabelle development hub hosting the repository, ongoing tasks, etc.
+- [dev-email](https://mailmanbroy.informatik.tu-muenchen.de/pipermail/isabelle-dev/): The Isabelle development e-mail list.
+- [doc](https://isabelle.in.tum.de/documentation.html): Official documentation
+- [email](https://lists.cam.ac.uk/pipermail/cl-isabelle-users/index.html): The Isabelle users e-mail list.
+- [home](https://isabelle.in.tum.de): The official website and download page
+- [ml-tips](https://nms.kcl.ac.uk/christian.urban/Cookbook/): Tutorials and tips for ML-coding in Isabelle
+- [repo](https://isabelle-dev.sketis.net/source/isabelle/): The repository
+- [search](https://search.isabelle.in.tum.de/): Experimental search platform
+- [tips](https://github.com/isabelle-prover/cookbook): Collection of useful tips and hints provided by the community
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/isabelle-prover/isabelle-prover.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Something missing? Something broken? Create a [pull request or issue](https://github.com/isabelle-prover/isabelle-prover.github.io) to let us know.
