@@ -1,5 +1,3 @@
-<img id="logo" src="Isabelle.jpg" alt="Isabelle logo" style="display: block; margin-left: auto; margin-right: auto; width: 125px;"/>
-
 # Isabelle Quick Access Links
 
 - [afp](https://www.isa-afp.org/): The Archive of Formal Proofs is a collection of proof libraries, examples, and larger scientific developments.
