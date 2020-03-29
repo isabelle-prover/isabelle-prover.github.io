@@ -1,1 +1,13 @@
 theme: jekyll-theme-cayman
+
+collections:
+  shortlinks:
+    output: true
+    permalink: /:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: shortlinks
+    values:
+      layout: shortlink

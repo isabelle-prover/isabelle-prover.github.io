@@ -1,7 +1,15 @@
 # Isabelle Quick Access Links
 
-- [afp](https://www.isa-afp.org/): The Archive of Formal Proofs is a collection of proof libraries, examples, and larger scientific developments.
-- [chat](https://isabelle.zulipchat.com), [zulip](https://isabelle.zulipchat.com): Real-time discussion platform to exchange ideas, ask questions, and collaborate on Isabelle projects.
+<ul>
+  {% for shortlink in site.shortlinks %}
+    <li>
+      <a href="{{ shortlink.redirect }}">{{ shortlink.title | slugify }}</a>: {{ shortlink.description }}
+    </li>
+  {% endfor %}
+</ul>
+
+Quick link: <code>isabelle.systems/<em>code</em></code>, e.g. <code>isabelle.systems/afp</code>
+
 - [chat-archive](https://isabelle.systems/zulip-archive/), [zulip-archive](https://isabelle.systems/zulip-archive/): The publicly available archive of the Isabelle zulip platform.
 - [competition](https://competition.isabelle.systems): Platform for interactive theorem proving competitions (also supporting other ITPs like Coq or Lean).
 - [dev](https://isabelle-dev.sketis.net): The Isabelle development hub hosting the repository, ongoing tasks, etc.
