@@ -3,6 +3,14 @@
   <head>
     <meta charset="UTF-8">
 
+    {% if site.title %}
+    <title>{{ site.title }}</title>
+    {% endif %}
+
+    {% if site.description %}
+    <meta name="description" content="{{ site.description }}">
+    {% endif %}
+
     {% if page.redirect %}
       <meta http-equiv="Refresh" content="0; url={{ page.redirect }}" />
     {% endif %}
