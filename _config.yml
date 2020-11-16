@@ -1,4 +1,6 @@
 theme: jekyll-theme-cayman
+title: Isabelle Quick Access Links
+description: Quicklinks to all important sites related to the Isabelle theorem prover
 
 collections:
   shortlinks:
