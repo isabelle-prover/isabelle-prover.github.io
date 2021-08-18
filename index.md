@@ -1,5 +1,7 @@
 # Isabelle Quick Access Links
 
+Quick link: <code>isabelle.systems/<em>&lt;code&gt;</em></code>, e.g. <code>isabelle.systems/afp</code>
+
 <ul>
   {% for shortlink in site.shortlinks %}
     <li>
@@ -7,8 +9,6 @@
     </li>
   {% endfor %}
 </ul>
-
-Quick link: <code>isabelle.systems/<em>code</em></code>, e.g. <code>isabelle.systems/afp</code>
 
 ---
 
