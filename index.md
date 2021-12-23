@@ -2,7 +2,7 @@
 
 Quick link: <code>isabelle.systems/<em>&lt;code&gt;</em></code>, e.g. <code>isabelle.systems/afp</code>
 
-{% assign categories = site.shortlinks | group_by:"category" %}
+{% assign categories = site.shortlinks | group_by:"category" | sort:"name" %}
 
 {% for group in categories %}
 <h2>{{ group.name }}</h2>
