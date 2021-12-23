@@ -2,13 +2,18 @@
 
 Quick link: <code>isabelle.systems/<em>&lt;code&gt;</em></code>, e.g. <code>isabelle.systems/afp</code>
 
+{% assign categories = site.shortlinks | group_by:"category" %}
+
+{% for group in categories %}
+<h2>{{ group.name }}</h2>
 <ul>
-  {% for shortlink in site.shortlinks %}
+    {% for shortlink in group.items %}
     <li>
-      <a href="{{ shortlink.redirect }}">{{ shortlink.title | slugify }}</a>: {{ shortlink.description }}
+        <a href="{{ shortlink.redirect }}">{{ shortlink.title | slugify }}</a>: {{ shortlink.description }}
     </li>
-  {% endfor %}
+    {% endfor %}
 </ul>
+{% endfor %}  
 
 ---
 
