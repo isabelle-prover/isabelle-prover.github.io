@@ -5,11 +5,11 @@ Quick link: <code>isabelle.systems/<em>&lt;code&gt;</em></code>, e.g. <code>isab
 {% assign categories = site.shortlinks | group_by:"category" | sort:"name" %}
 
 {% for group in categories %}
-<h2>{{ group.name }}</h2>
+<h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
 <ul>
     {% for shortlink in group.items %}
     <li>
-        <a href="{{ shortlink.redirect }}">{{ shortlink.title | slugify }}</a>: {{ shortlink.description }}
+        <a id="{{ shortlink.title | slugify }}" href="{{ shortlink.redirect }}">{{ shortlink.title | slugify }}</a>: {{ shortlink.description }}
     </li>
     {% endfor %}
 </ul>
