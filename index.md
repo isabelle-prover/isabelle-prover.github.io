@@ -5,7 +5,9 @@ Quick link: <code>isabelle.systems/<em>&lt;code&gt;</em></code>, e.g. <code>isab
 {% assign categories = site.shortlinks | group_by:"category" | sort:"name" %}
 
 {% for group in categories %}
+{% if group.name != "" %}
 <h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
+{% endif %}
 <ul>
     {% for shortlink in group.items %}
     <li>
