@@ -2,8 +2,15 @@
 
  - [Semantics via Isabelle](https://www21.in.tum.de/teaching/semantics/), Tobias Nipkow
    
-   This is an MSc course on Semantics via Isabelle, 15 weeks with two 90 minutes lectures per week.
-   
+   This is an MSc course on Semantics via Isabelle based on the [Concrete Semantics](https://concrete-semantics.in.tum.de/) book,
+   15 weeks with two 90 minutes lectures per week.
+
+- [Functional Data Structures](https://www21.in.tum.de/teaching/fds)
+
+  This is a course about functional data structures using Isabelle, based on material in the
+  [Functional Algorithms, Verified!](https://functional-algorithms-verified.org/) book.
+  15 weeks with one 90 minute lecture per week.
+
  - [Isabelle/HOL + Isar course](http://cl-informatik.uibk.ac.at/teaching/ss11/eve), Christian Sternagel, 4 sessions of 3h
    
    This is the course materials for a blocked Isabelle course that Christian Sternagel held in Innsbruck several times.
