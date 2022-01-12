@@ -1,5 +1,5 @@
 ---
 redirect: https://github.com/isabelle-prover/isabelle-linter
-description: An Isabelle/Isar Linter.
+description: An Isabelle/Isar linter.
 category: Isabelle/jEdit
 ---
