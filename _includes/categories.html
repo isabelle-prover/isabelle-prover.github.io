@@ -1,0 +1,13 @@
+{% for group in categories %}
+{% if group.name != "" %}
+<h2 id="{{ group.name | slugify }}">{{ group.name }}</h2>
+{% endif %}
+<ul>
+    {% for shortlink in group.items %}
+    {% assign slugified_title = shortlink.title | slugify %}
+    <li>
+        <a id="{{ slugified_title }}" href="{{ shortlink.redirect }}">{{ slugified_title }}</a>: {{ shortlink.description }}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}

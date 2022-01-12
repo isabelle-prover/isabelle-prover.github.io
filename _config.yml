@@ -9,6 +9,9 @@ collections:
   addons:
     output: true
     permalink: /addons/:name/
+  libraries:
+    output: true
+    permalink: /libraries/:name/
 
 defaults:
   - scope:
@@ -19,5 +22,10 @@ defaults:
   - scope:
       path: _addons
       type: addons
+    values:
+      layout: shortlink
+  - scope:
+      path: _libraries
+      type: libraries
     values:
       layout: shortlink
