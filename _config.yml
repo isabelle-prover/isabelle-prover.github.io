@@ -9,7 +9,7 @@ collections:
 
 defaults:
   - scope:
-      path: ""
+      path: _shortlinks
       type: shortlinks
     values:
       layout: shortlink
