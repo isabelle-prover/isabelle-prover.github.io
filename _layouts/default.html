@@ -9,7 +9,7 @@
     {% if site.description %}
     <meta name="description" content="{{ site.description }}">
     {% endif %}
-    <link rel="icon" href="/assets/images/favicon.ico" type="image/icon">
+    <link rel="icon" href="{{ "/assets/images/favicon.ico" | relative_url}}" type="image/icon">
 
     {% if page.redirect %}
       <meta http-equiv="Refresh" content="0; url={{ page.redirect }}" />
@@ -17,12 +17,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url}}">
   </head>
   <body>
     <header class="page-header" role="banner">
-      <a href="/">
-        <img id="logo" src="/assets/images/Isabelle.jpg" alt="Isabelle logo" />
+      <a href="{{ "/" | relative_url}}">
+        <img id="logo" src="{{ "/assets/images/Isabelle.jpg" | relative_url}}" alt="Isabelle logo" />
       </a>
     </header>
 
@@ -31,8 +31,8 @@
     </main>
     <footer class="site-footer">
       <p>
-      Something missing? Something broken? Any questions? Create a <a href="https://github.com/isabelle-prover/isabelle-prover.github.io">pull request or issue</a> to let us know.</br>
-      <a href="/about/">About this website</a>
+        Something missing? Something broken? Any questions? Create a <a href="{{ site.github.repository_url }}">pull request or issue</a> to let us know.</br>
+        <a href="{{ "/about/" | relative_url}}">About this website</a>
       </p>
     </footer>
   </body>
