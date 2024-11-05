@@ -1,5 +1,5 @@
 ---
 redirect: https://ci.isabelle.systems
-description: Isabelle/Jenkins continuous integration service.
+description: Isabelle automated build and continuous integration.
 category: Infrastructure
 ---
