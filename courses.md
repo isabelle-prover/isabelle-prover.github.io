@@ -26,6 +26,12 @@
    aimed at mathematicians who would like to use it for the
    formalization of mathematical results.
 
+ - [Modular Proofs in Isabelle/HOL](https://cledmonds.github.io/mgs2025/), Chelsea Edmonds, 4 lectures, 4 excersize sessions
+
+   An introduction to proving with Isabelle/HOL especially focused on using locales
+   to keep theories modular, and program verification mostly following the Concrete
+   Semantics book.
+
  - [A Gentle Introduction to Isabelle and Isabelle/HOL](https://raw.githubusercontent.com/gteege/gentle-isabelle/refs/heads/main/man-isabelle.pdf), Gunnar Tege, Book
 
    This is a "gentle", practical introduction for complete beginners assuming only
