@@ -1,10 +1,10 @@
 # Isabelle Course Material
 
- - [Semantics via Isabelle](https://www21.in.tum.de/teaching/semantics/), Tobias Nipkow, 15 weeks with two 90 minute lectures per week
+ - [Semantics via Isabelle](https://www21.in.tum.de/teaching/semantics/WS24/), Tobias Nipkow, 15 weeks with two 90 minute lectures per week
    
    This is an MSc course on Semantics via Isabelle based on the [Concrete Semantics](https://concrete-semantics.in.tum.de/) book.
 
-- [Functional Data Structures](https://www21.in.tum.de/teaching/fds), Tobias Nipkow, 15 weeks with one 90 minute lecture per week
+- [Functional Data Structures](https://www21.in.tum.de/teaching/fds/SS24/), Tobias Nipkow, 15 weeks with one 90 minute lecture per week
 
   This is a course about functional data structures using Isabelle, based on material in the
   [Functional Algorithms, Verified!](https://functional-algorithms-verified.org/) book.
