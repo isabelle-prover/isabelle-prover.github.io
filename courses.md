@@ -22,19 +22,19 @@
    
  - [Isabelle Primer for Mathematicians](https://www.research.ed.ac.uk/en/publications/isabelle-primer-for-mathematicians), Bogdan Grechuk
    
-   This is a quick introduction to the Isabelle/HOL proof assistant,
+   This is a short introduction to the Isabelle/HOL proof assistant,
    aimed at mathematicians who would like to use it for the
    formalization of mathematical results.
 
  - [Modular Proofs in Isabelle/HOL](https://cledmonds.github.io/mgs2025/), Chelsea Edmonds, 4 lectures, 4 excersize sessions
 
-   An introduction to proving with Isabelle/HOL especially focused on using locales
-   to keep theories modular, and program verification mostly following the Concrete
+   An introduction to theorem proving with Isabelle/HOL with a focus on using locales
+   to keep theories modular and program verification. It mostly follows the Concrete
    Semantics book.
 
  - [A Gentle Introduction to Isabelle and Isabelle/HOL](https://raw.githubusercontent.com/gteege/gentle-isabelle/refs/heads/main/man-isabelle.pdf), Gunnar Tege, Book
 
    This is a "gentle", practical introduction for complete beginners assuming only
-   some basic familiarity with mathematics. Its walks through basic topics which
-   are also explained in the official documentation, but at a much slower pace and
-   with a focus towards practical usage, how to interact with Isabelle/jedit, etc.
+   some basic familiarity with mathematics. It walks through basic topics that
+   are also explained in the official documentation but at a slower pace and
+   with a focus on practical examples, interaction with Isabelle/jedit, etc.
