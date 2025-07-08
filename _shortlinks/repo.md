@@ -1,5 +1,5 @@
 ---
-redirect: https://isabelle-dev.sketis.net/source/isabelle/
+redirect: https://isabelle.in.tum.de/repos/isabelle/
 description: The development repository.
 category: Infrastructure
 ---
