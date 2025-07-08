@@ -1,5 +1,5 @@
 ---
-redirect: https://brucker.ch/projects/hol-ocl/index.en.html
+redirect: https://logicalhacking.com/software/hol-ocl/
 description: Interactive proof environment for the Object Constraint Language (OCL).
 category: Outdated
 ---
