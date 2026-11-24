@@ -1,5 +1,5 @@
 ---
 redirect: https://isabelle.systems/conventions/
-description: Isabelle community conventions and contribution guidelines.
+description: Community contributed Isabelle conventions.
 category: Resources
 ---
