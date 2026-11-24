@@ -6,9 +6,6 @@ collections:
   shortlinks:
     output: true
     permalink: /:name/
-  addons:
-    output: true
-    permalink: /addons/:name/
   libraries:
     output: true
     permalink: /libraries/:name/
@@ -17,11 +14,6 @@ defaults:
   - scope:
       path: _shortlinks
       type: shortlinks
-    values:
-      layout: shortlink
-  - scope:
-      path: _addons
-      type: addons
     values:
       layout: shortlink
   - scope:
